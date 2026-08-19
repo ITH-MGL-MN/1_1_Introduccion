@@ -1,0 +1,12 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Calificador fuente (contiene las respuestas) ---
+# NO se publica; solo se sube el ofuscado grader_ofuscado.txt
+grader.py
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
