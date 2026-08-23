@@ -13,12 +13,12 @@ Plantilla de tarea para el curso de Métodos Numéricos.
 
 ## Antes de publicar
 
-1. Edita `grader.py`: pon tu `APPS_SCRIPT_URL` y las preguntas reales.
+1. Edita `grader.py`: pon tu `APPS_SCRIPT_URL`, tu `WEBHOOK_TOKEN` (el mismo que guardaste en las propiedades del Script de Apps Script) y las preguntas reales.
 2. Genera el ofuscado:
    ```
    python tools/ofuscar.py
    ```
-3. Actualiza `alumnos.csv`.
+3. `alumnos.csv` es opcional (la identificación es automática con el correo institucional @tecnm.mx).
 4. Cambia `REPO_URL` / `REPO_NOMBRE` en la celda de configuración del notebook.
 5. Crea el repositorio en GitHub (uno por tarea) y súbelo.
 6. Comparte el enlace de Colab del notebook.

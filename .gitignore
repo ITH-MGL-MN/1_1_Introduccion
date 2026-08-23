@@ -3,9 +3,9 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# --- Calificador fuente (contiene las respuestas) ---
-# NO se publica; solo se sube el ofuscado grader_ofuscado.txt
-grader.py
+# --- Herramientas de profesor ---
+# NO se publica;
+profe/
 
 # --- Sistema ---
 .DS_Store
